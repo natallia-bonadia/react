@@ -1,0 +1,97 @@
+#container-theme .light {
+  background-color: #fff;
+  color: #333;
+  border-color: #333;
+
+  margin: 0;
+  padding: 30px;
+}
+
+#container-theme .light a {
+  color: #333;
+}
+
+#container-theme .dark a {
+  color: #fff;
+}
+
+#container-theme .dark {
+  background-color: #333;
+  color: #fff;
+  border-color: #fff;
+  
+  margin: 0;
+  padding: 30px;
+}
+
+#container-theme .header-menu {
+  height: 30px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#container-theme .header-menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+#container-theme .header-menu li {
+  list-style: none;
+}
+
+#container-theme .header-menu a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#container-theme .header-menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+#container-theme .login-button {
+  background-color: rgb(230, 230, 230);
+  color: #333;
+  cursor: pointer;
+  border-style: none;
+
+  margin: 30px 0px;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+#container-theme .body-theme {
+  min-height: 250px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+#container-theme .footer-theme {
+  height: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  text-align: center;
+}
+
+#container-theme .theme-button {
+  background-color: rgb(230, 230, 230);
+  color: #333;
+  cursor: pointer;
+  border-style: none;
+
+  margin: 0 0 30px 30px;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+#container-theme .theme-button:hover {
+  color: #fff;
+  background-color: #333;
+}

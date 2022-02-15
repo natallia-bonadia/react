@@ -1,0 +1,61 @@
+#container-list {
+  margin: 30px;
+}
+
+#form-container {
+  margin-bottom: 30px;
+}
+
+#form-container label {
+  color: #333;
+
+  font-weight: 600;
+  font-size: 17px;
+}
+
+#form-container input {
+  border-style: none;
+  background-color: rgb(255, 240, 221);
+  color: #333;
+
+  margin: 0 15px;
+  padding: 0px 8px;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+/* #form-container input:focus {
+  /* border: 3 solid #333;
+} */
+
+#form-container button {
+  background-color: rgb(230, 230, 230);
+  color: #333;
+  cursor: pointer;
+  border-style: none;
+
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+#form-container button:hover {
+  background-color: rgb(203, 255, 196);
+}
+
+#list-container ol {
+  background-color: rgb(255, 240, 221);
+  list-style-position: inside;
+
+  border-radius: 5px;
+  width: 385px;
+  padding: 10px 10px;
+}
+
+#list-container li {
+  color: #333;
+
+  font-weight: 600;
+  font-size: 16px;
+  padding: 4px;
+}

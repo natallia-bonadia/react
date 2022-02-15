@@ -1,0 +1,31 @@
+#title {
+  background-color: rgb(31, 114, 182);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  font-family: monospace;
+  font-weight: 700;
+  border-style: solid;
+  border-color: rgb(31, 114, 182);
+  background-color: rgb(223, 223, 223);
+  color: rgb(31, 114, 182);
+  cursor: pointer;
+ 
+  border-width: 3px;
+  margin: 30px;
+  font-size: 20px;
+  padding: 15px 20px;
+  border-radius: 50%;
+}
+
+.btn:hover {
+  background-color: rgb(167, 210, 245);
+  border-color: rgb(49, 42, 56);
+}

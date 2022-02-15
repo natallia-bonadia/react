@@ -1,0 +1,11 @@
+.personUl {
+  width: 300px;
+  background-color: rgb(180, 241, 243);
+  list-style: none;
+  margin: 20px;
+  padding: 5px;
+}
+
+.personUl li {
+  margin: 5px;
+}

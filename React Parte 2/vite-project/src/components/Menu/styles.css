@@ -1,0 +1,26 @@
+#menu {
+  padding: 15px 30px;
+  background-color: #333;
+}
+
+.menu-btn {
+  color: #fff;
+  text-decoration: none;
+
+  padding-right: 30px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.menu-btn:hover {
+  color: rgb(255, 240, 221);
+}
+
+#title {
+  margin: 20px 30px;
+}
+
+#title h1 {
+  color: #333;
+  font-size: 26px;
+}
